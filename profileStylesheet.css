@@ -69,12 +69,9 @@ h3 {
 
 .profilePicture { 
     float: left;
-    padding: 20px 50px 50px 50px;
+    padding: 10px 50px 50px 50px;
     animation: forwards;
 }
-
-
-
 
 
 
@@ -87,13 +84,18 @@ a {
 
 a::after {
     border-radius: 1em;
-    border-top: .1em solid white;
+    border-top: .1em solid blue;
     content : "";
     position: absolute;
         right: 100%;
         bottom: 0em;
         left: 0;
     transition: right .4s cubic-bezier(0, .5, 0, 1);
+}
+
+#myResume {
+    text-align: right;
+    padding: 50px 50px 50px 50px;
 }
 a:visited {
     color:gold;
