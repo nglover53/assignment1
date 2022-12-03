@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
  
     <head>
@@ -12,103 +12,168 @@
         <meta name="Nikkolas B. Glover Webpage" content="This is an HTML project with css linked file representing a personal webpage 
         containing biographical and professional data for the purpose of sharing and self-promotion">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" href = "stylesheet.css">
         <link rel="stylesheet" href="profileStylesheet.css">
     </head>
-    <body id = "profile">
+    <body id = "profile" >
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">                    
+                </button>
         
+                <a class="navbar-brand" href="https://nglover53.github.io/lmc2700assignment1/">Portfolio</a>
+              </div>
 
-        <header class = "navBar">
-    
-            <table>
-                <tr> <td> <a href = "https://www.flickr.com/photos/186344962@N05/52003221382/in/album-72177720298112834/" title = "2022 Awards">Tower Awards</a>  </td> </tr>
-        
-                <tr><td> <a href = "https://www.linkedin.com/in/nikkolasbglover/LinkedIn" title = "My LinkedIn"> My LinkedIn</a> </tr> 
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="https://www.flickr.com/photos/186344962@N05/52003221382/in/album-72177720298112834/">Tower Awards</a></li>
+                  <li><a href="https://www.linkedin.com/in/nikkolasbglover/LinkedIn">My LinkedIn</a></li>
+                  <li><a href="https://sway.office.com/jPo9uhWt5B55bUW4?ref=Link">Experience</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://sso.gatech.edu/cas/login?service=https%3A//canvas.gatech.edu/casservice"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                <img id = "jacket" width = "60px"src = "kisspng-georgia-institute-of-technology-georgia-tech-yello-bee-5ac441fd16a422.6717835615228113890928.png">
+              </div>
+            </div>
+          </nav>
 
-               <!-- <tr><td> <a href = "https://sway.office.com/jPo9uhWt5B55bUW4?ref=Link" title = "My CV">Experience</a> </td></tr> -->
 
-                <tr><td> <a href= "https://iac.gatech.edu/academics/undergraduate/bs/cm" title = "CM @ Gatech"> Learn More About Computational Media</a></td></tr>
-                <img id = "jacket" width = "100px"src = "kisspng-georgia-institute-of-technology-georgia-tech-yello-bee-5ac441fd16a422.6717835615228113890928.png">
-            </table>
-        </header>
-        <div class = "separationBar">
-        </div>
+    <div class="jumbotron">
+      <div class = "nameDegree">
+          
+          <h1>Nikkolas B. Glover </h1>
+          <h4>Georgia Institute of Technology '24</h4>
+          <h4>B.S. Computational Media: <i>Intelligence & Interaction Design</i></h4>
 
-
-        <div class = "nameDegree">
-            
-            <h1>Nikkolas B. Glover </h1>
-            <h4>Georgia Institute of Technology '24</h4>
-            <h4>B.S. Computational Media: <i>Intelligence & Interaction Design</i></h4>
-           
-        </div>
-
-        <div class = "profilePicture">
-            <img src = "nikkG.jpeg">
-        </div>
-
-       
-
-        
-        <div class = "aboutMe"><p>
+          <div class = "aboutMe"><p>
             <h3>About Me</h3>
             Welcome to my page! Here, you will find a small selection of my work and interests.  
             In my time at Georgia Tech, I have become interested in AI safety, and other issues of computational ethics such as algorithmic 
             discrimination. I care very much about the impact of tech on marginalized communities. My mission 
             is to educate others about algorithmic inequities and unfairness. 
-        </p> </div>
-      
-        
-     <!--   <div class = "floatingBoard">
-            <img src = "keyboard3.png">
-        </div>-->
-
-
-        <div  id = "myResume">
-            <iframe width="500px" height="300px" src="https://sway.office.com/s/jPo9uhWt5B55bUW4/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+          </p> </div>
+            
         </div>
 
+        <div class = "profilePicture">
+          <img src = "nikkG.jpeg">
+      </div>
 
-        <div class = "headTA"> <p>
-            <h3>Head TA</h3>
-            Summer of 2022, I became a Head TA for CS1315, Intro to Media Computation. 
-            At the end of the summer, students presented their programming skills 
-            in an end of summer showcase. Teaching is the most rewarding 
-            experience I've had during my time at Tech. 
-            
-        </p></div> 
-
-        <div class = "photoGallery">
-            <img class = "ignite1" width = "500px" height = "auto" src = "ignite1.JPG" >
-            <img class = "ignite2" width = "500px" height = "auto" src = "ignite2.JPG">
-            <img class = "ignite3" width = "500px" height = "auto" src = "ignite3.JPG">
-
-
-         </div>
-
-
-         <div class = "portfolio">
-            <div id = galleryTag>
-                <h3>Design and Programming Gallery</h3>
-            </div>
-
-
-        <img width = "500px" height = "auto" src = "Glover_ic004_personalBrand.jpg">
-        <img width = "500px" height = "auto" src = "group_11_002_Draft_Remix copy.jpg">
-        <img width = "500px" height = "auto" src = "Group11_finalProject_brandIdentityPrism.jpg">
-        <img width = "500px" height = "auto" src = "Group_11_Final_pg04.jpg">
-        <img width = "500px" height = "auto" src = "Group_11_Final_pg05.jpg">
-        <img width = "500px" height = "auto" src = "Group_11_Final_pg07 copy.jpg">
        
-    </div>
+        
+          <div class="container text-center">
+            
+          </div>
+        </div>
+
+        <div  id = "myResume">
+            <p> Resume</p>
+            <br>
+            <iframe width="500px" height="300px" src="https://sway.office.com/s/jPo9uhWt5B55bUW4/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+        </div>
+        
+
+
+        <div class = "scarchive"> 
+            <p>My Latest Work: Interactive Archiving (Arriving December 2022) <p>
+            
+            <a href = "#" title = "An Interactive Collection of Transgender Surgery Scars"><img src = "scarchive copy.jpg">  </a>
+            <h3> <h3>
+        </div> 
+
+
+        <div class = "gallery"> 
+          <p>Gallery <p>
+          <br>
+        </div> 
+
+        
+        <div class="container-fluid bg-3 text-center">    
+          <div class="row">
+            <div class="col-sm-3">
+              
+              <img src="scarchive copy.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+              
+              <img src="Artboard 3.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+             
+              <img src="Artboard 6.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+              
+              <img src="Artboard 7.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+          </div>
+        </div><br>
+
+        <div class="container-fluid bg-3 text-center">    
+    
+          <div class="row">
+            <div class="col-sm-3">
+              
+              <img src="assignment3_3.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+              
+              <img src="assignment3.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+             
+              <img src="graphicDesignAssignment3_2.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+              
+              <img src="Artboard 7.png" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+          </div>
+        </div><br>
+      
+        <div class="container-fluid bg-3 text-center">  
+            
+          <div class="row">
+            <div class="col-sm-3">
+              
+              <img src="Glover_ic004_personalBrand.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+             
+              <img src="group_11_002_Draft_Remix copy.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3"> 
+              
+              <img src="Group11_finalProject_brandIdentityPrism.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+            
+              <img src="Group_11_Final_pg04.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+          </div>
+        </div><br><br>
+
 
     </body>
 
     <div class = "separationBar">
     </div>
-    <div class = "footer">
-        <p>end</p>>
+  
 
-    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">                    
+            </button>
+    
+            
+      </nav>
 
     
 </div>
